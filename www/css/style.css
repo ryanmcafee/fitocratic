@@ -1,0 +1,85 @@
+body {
+    background-color: #0478d2;
+    font-family: 'Raleway', sans-serif;
+}
+p {
+    text-align: center;
+    margin-bottom: 40px !important;
+}
+.spinner svg {
+    margin-top: 20px;
+    width: 40% !important;
+    height: 200px !important;
+}
+
+h1 {
+    margin-left: 20px;
+    text-align: center;
+}
+
+h3 {
+    color: #ffffff;
+
+}
+
+.landing-button {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 75px;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.light-blue {
+    background-color: #50a1e0;
+
+}
+
+[nav-view-transition="ios"][nav-view-direction="forward"], [nav-view-transition="ios"][nav-view-direction="back"], .pane{
+    background-color: #0478d2;
+}
+
+/*.center {*/
+    /*margin-left: 5%;*/
+    /*margin-right: 5%;*/
+    /*text-align: center;*/
+/*}*/
+
+.center img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.title {
+    color: white;
+}
+
+.height-50 {
+    height: 50px;
+}
+
+input {
+    text-align: center;
+    font-size: 2.0em;
+}
+
+.container {
+    margin-top: 75px;
+}
+
+.container h1 {
+    margin-right: 40px;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+    height: 50px;
+}
+
