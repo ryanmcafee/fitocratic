@@ -24,8 +24,6 @@ COPY scss scss
 COPY www www
 COPY screenshots screenshots
 COPY resources resources
-COPY plugins plugins
-COPY platforms platforms
 COPY hooks hooks
 COPY README.md README.md
 COPY server.js server.js
