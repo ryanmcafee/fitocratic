@@ -20,12 +20,14 @@ COPY package.json package.json
 RUN npm install
 
 # Copy over app data
-COPY server server
-COPY public public
-COPY assets assets
-COPY common common
-COPY config config
-COPY .babelrc .babelrc
+COPY scss scss
+COPY www www
+COPY screenshots screenshots
+COPY resources resources
+COPY plugins plugins
+COPY platforms platforms
+COPY hooks hooks
+COPY README.md README.md
 COPY server.js server.js
 
 EXPOSE 3000
