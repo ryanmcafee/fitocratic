@@ -1,33 +1,28 @@
-ionic-heroku-button
+Fitocratic
 ===================
 
-A one-click Ionic app template for Heroku
+An open source health and fitness HTML5 based tracking application.
 
-## Deploying locally
+## Getting started
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+Make sure you have [Node.js](http://nodejs.org/) installed.
+Also, ensure you have python version 2.7 installed. This is needed for the build system which uses node-gyp (https://www.python.org/download/releases/2.7/)
+Optionally, you should also have docker installed if you want to run the app in a docker container. (https://docs.docker.com/engine/installation/)
 
+#Next Step - Clone the repository
 ```sh
-git clone git@github.com:driftyco/ionic-heroku-button.git # or clone your own fork
-cd ionic-heroku-button
-npm install
-npm start
+git clone git@github.com:ryanmcafee/fitocratic.git
+cd fitocratic - Go to the directory
+npm install - Install the needed server dependencies
+npm start - Start the application on your local machine
 ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+#Running the application in Docker
 
-## Deploying to Heroku
+Will add this documentation soon!
 
-```
-heroku create
-git push heroku master
-heroku open
-```
 
-Alternatively, you can deploy your own copy of the app using this button:
+Your app should now be running on [localhost:3000](http://localhost:3000/).
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-## Documentation
 
-For more information about using Heroku, check out https://devcenter.heroku.com/
